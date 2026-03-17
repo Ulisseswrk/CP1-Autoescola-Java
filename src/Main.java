@@ -7,13 +7,13 @@ public class Main {
         Instrutor leandro = new Instrutor();
         leandro.nome = "Leandro";
         leandro.experiencia = 5;
-        leandro.categoria = "AB";
+        leandro.categoria = "Carro";
         unidadePaulista.instrutor = leandro;
 
         // Configurando o Veículo:
         Veiculo fiatArgo = new Veiculo();
-        fiatArgo.tipo = "Hatch";
-        fiatArgo.modelo = "1.0 turbo";
+        fiatArgo.tipo = "Carro";
+        fiatArgo.modelo = "Fiat Argo";
         fiatArgo.placa = "HDK-0174";
         unidadePaulista.veiculo = fiatArgo;
 
