@@ -61,6 +61,6 @@ Abaixo está a representação visual da modelagem do sistema, destacando os rel
 | Nome Completo | RM |
 | :--- | :--- |
 | **Ulisses Ribeiro** | `RM562230` |
-| Luigi Ferrarini Borghi | `RM      ` |
-| Arthur Ferreira | `RM      ` |
-| Levi de Jesus | `RM      ` |
+| Luigi Ferrarini Borghi | `RM563096` |
+| Arthur Ferreira | `RM564958` |
+| Levi de Jesus | `RM563279` |
