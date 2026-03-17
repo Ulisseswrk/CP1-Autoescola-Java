@@ -6,6 +6,9 @@ public class AutoEscola {
     Aluno aluno3;
     Aluno aluno4;
 
+    Instrutor instrutor;
+    Veiculo veiculo;
+
     // Mostra as informações dos alunos cadastrados (com o nome, aulas feitas e aprovação)
     public void exibirResumo() {
 

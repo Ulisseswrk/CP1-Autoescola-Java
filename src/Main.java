@@ -1,34 +1,41 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(){
         // Definindo os atributos da classe e colocando eles nas gavetas definidas nos outros arquivos:
-
         AutoEscola unidadePaulista = new AutoEscola();
-        Instrutor Leandro = new Instrutor();;
-        Veiculo fiatArgo = new Veiculo();
 
+        // Configurando o instrutor:
+        Instrutor leandro = new Instrutor();
+        leandro.nome = "Leandro";
+        leandro.experiencia = 5;
+        leandro.categoria = "AB";
+        unidadePaulista.instrutor = leandro;
+
+        // Configurando o Veículo:
+        Veiculo fiatArgo = new Veiculo();
+        fiatArgo.tipo = "Hatch";
+        fiatArgo.modelo = "1.0 turbo";
+        fiatArgo.placa = "HDK-0174";
+        unidadePaulista.veiculo = fiatArgo;
+
+        // Configuração dos alunos:
         Aluno aluno1 = new Aluno();
         aluno1.nome = "Ulisses";
         aluno1.idade = 18;
-
-        // Agregação do aluno na gaveta da autoescola
         unidadePaulista.aluno1 = aluno1;
 
         Aluno aluno2 = new Aluno();
         aluno2.nome = "Arthur";
         aluno2.idade = 18;
-
         unidadePaulista.aluno2 = aluno2;
 
         Aluno aluno3 = new Aluno();
         aluno3.nome = "Levi";
         aluno3.idade = 18;
-
         unidadePaulista.aluno3 = aluno3;
 
         Aluno aluno4 = new Aluno();
         aluno4.nome = "Luigi";
         aluno4.idade = 18;
-
         unidadePaulista.aluno4 = aluno4;
 
         // Simulação do uso dos métodos:
