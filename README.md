@@ -44,7 +44,7 @@ A arquitetura do projeto é dividida nos seguintes arquivos `.java`:
 
 Abaixo está a representação visual da modelagem do sistema, destacando os relacionamentos de agregação.
 
-![Diagrama UML da Autoescola](./doc/diagrama_uml.png)
+<img width="641" height="310" alt="diagrama png" src="https://github.com/user-attachments/assets/7395ecde-57ef-4072-8b03-52f5b6334f15" />
 
 ---
 
